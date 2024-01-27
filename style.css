@@ -401,3 +401,125 @@ Form input[type="submit"]:hover{
     background-color: rgb(19, 19, 45);
     color: aliceblue;
 }
+.contents{
+    width: 1300px;
+    background-color: rgb(9, 9, 23);
+    margin-top: 100px;
+    height: 1400px;
+}
+.contents1{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+.contents .contents1 h2{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #00d084;
+    margin-left: 40px;
+}
+.contents .contents1 h1{
+    color: aliceblue;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-left: 150px;
+}
+.content5{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin-left: 100PX;
+
+}
+.content5 .c5inner{
+    width: 500PX;
+    height: 300PX;
+}
+.content5 .c5inner h1{
+    color: aliceblue;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-top: 20px;
+}
+.content5 .c5inner .inner1{
+    width: 150px;
+    height: 60px;
+    color: aliceblue;
+    box-sizing: border-box;
+    border: 3px solid #00d084;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+}
+.content5 .c5inners{
+    width: 500px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: rgb(23, 23, 41);
+    margin-top: 50px;
+    
+   
+}
+.content5 .c5inners h3{
+    color: aliceblue;
+    margin-left: 40px;
+}
+.content5 .c5inners .anime{
+    width: 350px;
+    height: 7px;
+    margin-top: 30px;
+    animation: anime 1s ease-in-out infinite both;
+}
+
+@keyframes anime {
+   0%{
+        width: 50px;b        
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    25%{
+        width: 150px;
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    50%{
+        width: 250px;
+        transform: translate(0px );
+        background-color: #00d084;
+    
+    }
+    
+    100%{
+        width: 350px;
+        transform: translate(0px);
+        background-color: #00d084;
+        
+    }
+
+}
+.content6{
+   display: flex;
+   flex-direction: column;
+   margin-top: 40px;
+}
+.contentbox{
+    width: 600px;
+    height: 300px;
+    margin-left: 60px;
+}
+ .contentbox h2{
+    color: #00d084;
+}
+.contentbox h1{
+    color: aliceblue;
