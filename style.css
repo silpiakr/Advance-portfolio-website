@@ -3,7 +3,7 @@ body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url(Images/Background-2.png);
+    background-image: url(images/Background-2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position-y: bottom;
@@ -69,7 +69,7 @@ nav img{
 
 }
 .content{
-    background-image: url(Images/ds2.png);
+    background-image: url(images/ds2.png);
     background-repeat: no-repeat;
     background-size: 100%;
     display: flex;
