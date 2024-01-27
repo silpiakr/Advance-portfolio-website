@@ -552,3 +552,74 @@ Form input[type="submit"]:hover{
     height: 500px;
     margin-right: 20px;
 }
+.content7 .content7boxs{
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    margin: 0 auto;
+}
+.content7 .content7boxs h2{
+    color: #00d084;
+    font-size: 1rem;
+    font-weight: 700px;
+}
+
+.content7 .content7boxs h1{
+    color: aliceblue;
+    font-size: 2.3rem;
+    font-weight: 700px;
+    margin: 0;
+}
+.cont7InnerBox{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.content7InnerBox{
+    box-sizing: border-box;
+    border: 2px solid #11151E;
+    width: 550px;
+    margin-left: 50px;
+    padding: 20px;
+   animation: scroll 20s linear infinite;
+}
+.content7InnerBox a .fa-lg{
+    display: inline-block;
+    margin: 0px;
+}
+.content7InnerBox h3{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    margin: 0;
+}
+.content7InnerBox p{
+    display: flex;
+}
+.content7InnerBox .fa-2xl{
+    margin-top: 10px;
+    padding: 20px;
+}
+@keyframes scroll {
+    0%{
+        transform: translateX(0px);
+    }
+    
+    100%{
+        transform: translateX(calc(-120px * 9));
+    }
+}
+.scrollDiv{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 300px;
+    animation: scrolls 10s linear infinite;
+    margin-top: 40px;
+
+}
