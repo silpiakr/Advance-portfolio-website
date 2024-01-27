@@ -523,3 +523,32 @@ Form input[type="submit"]:hover{
 }
 .contentbox h1{
     color: aliceblue;
+
+}
+.content6 .imgDiv1{
+    display: flex;
+    width: 800px;
+    margin-left: 60px;
+}
+.content6 .imgDiv2{
+    display: flex;
+    width: 800px;
+    margin-left: 60px;
+    margin-top: 40px;
+}
+.imgDivs img{
+    width: 700px;
+    height: 550px;
+    margin-right: 40px;
+}
+.imgDiv2 img{
+    width: 520px;
+    height: 500px;
+    margin-right: 20px;
+
+}
+.imgDivss img{
+    width: 600px;
+    height: 500px;
+    margin-right: 20px;
+}
