@@ -873,3 +873,14 @@ Form input[type="submit"]:hover{
     display: block;
 
 }
+footer{
+    background-color: #080808;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 500px repeat(3, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 0px;
+
+}
