@@ -1,0 +1,70 @@
+body{
+    background-color: black;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Images/Background-2.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: bottom;
+}
+header{
+    background-color: #11151E;
+    height: 80px;
+    position: fixed;
+}
+nav{
+    position: fixed;
+    width: 1150px;
+    height: 80px;
+    box-sizing: border-box;
+    background-color: rgb(33, 33, 33);
+    display: block;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a, .box1 a{
+    color: aliceblue;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 900;
+}
+nav img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+}
+.logo{
+    box-sizing: border-box;
+    border: 5px solid #00d084;
+    width: 80px;
+    height: 100%;
+    background-color:  #00d084;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nam{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-left: 0px;
+}
+.fa-caret-up{
+    margin-left: 10px;
+}
+.logo .fa-sharp{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.at a:hover{
+    color: #00d084;
+
+}
