@@ -210,3 +210,194 @@ p{
     font-weight: 500;
     font-size: 1rem;
 }
+.content3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.box4{
+    width: 500px;
+    height: 300px;
+}
+.boxx1{
+    margin-left: -80px;
+}
+.boxdiv{
+    background-color: #00d084;
+    width: 360px;
+    height: 380px;
+    margin-left: 120px;
+}
+.inner{
+    background-color: rgb(27, 26, 26);
+    width: 380px;
+    height: 420px;
+    margin-top: 20px;
+    position: absolute;
+    margin-left: -40px;
+}
+.boxx2{
+    display: grid;
+    grid-template-columns: repeat(2, 200px 300px);
+    justify-content: space-between;
+    margin-left: -100px;
+}
+.boxx2 .c3b1{
+    background-color: rgb(191, 194, 194);
+    width: 100px;
+    height: 5px;
+    display: block;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.boxx2 .c3b2 p{
+    text-align: justify;
+    margin-bottom: 100px;
+}
+.content3 .boxx2 .c3b2 a{
+    color: #080808;
+    background-color: #00d084;
+    padding: 20px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    
+}
+.boxx2 .c3b2 a:hover{
+    background-color: rgb(23, 21, 21); 
+    color: aliceblue;
+}
+.box4 .boxdiv .inner a{
+    color: aliceblue;
+    background-color: rgb(46, 45, 45);
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 250px;
+    height: 100px;
+    margin-top: -10px;
+    line-height: 50px;
+}
+.content4{
+    display: flex;
+    margin-top: 30%;
+   
+}
+
+.c4box1, .c4box2{
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.c4box1 h1, .c4box2 h1{
+    color: aliceblue;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.content4 .c4box1 h1{
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+.content4 .c4box2 h1{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    margin-left: -180px;
+    margin-bottom: 0;
+    padding: 0;
+}
+.content4 .c4box2{
+    background-color: rgb(9, 9, 23);
+    padding: 40px;
+}
+.content4 .c4box1 .ds{
+    font-size: 5.5rem;
+    font-weight: 700;
+
+}
+.content4 .c4box1 .innerdiv{
+   display: flex;
+   margin-top: 20px;
+}
+.content4 .c4box1 .innerdiv .indiv{
+    width: 250px;
+    height: 200px;
+    background-color: rgb(9, 9, 23);
+    border: 2px solid rgb(32, 32, 32);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.content4 .c4box1 .innerdiv .indiv img{
+    width: 120px;
+    height: 100px;
+}
+.content4 .c4box1 .innerdiv .indiv .png1{
+    width: 100px;
+    height: 80px; 
+}
+.content4 .c4box1 .innerdiv .indiv h1{
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0;
+}
+.content4 .innerdiv .indiv p{
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+.Form{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-left: 0px;
+}
+.Form input{
+    width: 500px;
+    height: 80px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-style: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: 2px solid #00d084;
+    color: aliceblue;
+    
+}
+.Form input[placeholder="Message"]{
+    height: 150px;
+}
+.Form input[type="submit"]{
+    background-color: #00d084;
+    font-size: 1.3rem;
+    font-weight: 700;
+    color: black;
+    width: 200px;
+    margin-left: -300px;
+    height: 60px;
+    border: transparent;
+}
+Form input[type="submit"]:hover{
+    background-color: rgb(19, 19, 45);
+    color: aliceblue;
+}
